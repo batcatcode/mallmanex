@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_main_nav">
+        <item
+            android:id="@+id/nav_store_profile"
+            android:icon="@drawable/ic_store"
+            android:title="Store Profile"/>
+        <item
+            android:id="@+id/nav_inventory"
+            android:icon="@drawable/ic_inventory"
+            android:title="Inventory Management"/>
+        <item
+            android:id="@+id/nav_sales_report"
+            android:icon="@drawable/ic_report"
+            android:title="Sales Report"/>
+        <item
+            android:id="@+id/nav_customer_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="Customer Feedback"/>
+    </group>
+
+    <group android:id="@+id/group_account">
+        <item
+            android:id="@+id/nav_account_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Account Settings"/>
+        <item
+            android:id="@+id/nav_help_support"
+            android:icon="@drawable/ic_help"
+            android:title="Help &amp; Support"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout"/>
+    </group>
+</menu> 

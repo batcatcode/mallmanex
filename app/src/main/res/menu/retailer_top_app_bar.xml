@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/notifications"
+        android:icon="@drawable/ic_notifications"
+        android:title="Notifications"
+        android:contentDescription="View notifications"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/more"
+        android:title="More"
+        android:contentDescription="Show more options"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:title="Settings"
+                android:contentDescription="Open settings"/>
+            <item
+                android:id="@+id/help"
+                android:title="Help"
+                android:contentDescription="Get help"/>
+            <item
+                android:id="@+id/update_location"
+                android:title="Update Location"
+                android:contentDescription="Update store location"/>
+        </menu>
+    </item>
+</menu> 

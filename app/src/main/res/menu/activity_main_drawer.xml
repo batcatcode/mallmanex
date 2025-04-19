@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_h"
+        android:title="Home"
+        android:icon="@drawable/ic_home" />
+
+    <item
+        android:id="@+id/nav_search"
+        android:title="Product Search"
+        android:icon="@drawable/ic_search" />
+
+    <item
+        android:id="@+id/nav_navigation"
+        android:title="Navigation"
+        android:icon="@drawable/ic_navigation" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings" />
+
+    <item
+        android:id="@+id/nav_help"
+        android:title="Help and Support"
+        android:icon="@drawable/ic_help" />
+</menu>
